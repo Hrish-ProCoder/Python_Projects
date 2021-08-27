@@ -9,3 +9,4 @@ image.show()
 
 # To save the screenshot
 image.save("FullPg.png")
+#end of the prog
