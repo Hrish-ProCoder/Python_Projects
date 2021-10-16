@@ -1,3 +1,9 @@
 from tkinter import *
 from tkinter import messagebox
 
+root = Tk()
+root.geometry("400x320")
+
+w = Label(root, text ='PyProj', font = "60")
+w.pack()
+
