@@ -53,4 +53,8 @@ def bar():
     time.sleep(0.5)
     progress['value'] = 0
     
-    
+    progress.pack(pady = 10)
+  
+# This button will initialize the progress bar
+
+Button(root, text = 'Start', command = bar).pack(pady = 10)
