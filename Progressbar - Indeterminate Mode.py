@@ -58,3 +58,6 @@ def bar():
 # This button will initialize the progress bar
 
 Button(root, text = 'Start', command = bar).pack(pady = 10)
+
+# infinite loop
+mainloop()
