@@ -32,3 +32,5 @@ def bar():
 progress.pack(pady = 10)
 
 Button(root, text = 'Start', command = bar).pack(pady = 10)
+
+mainloop()
