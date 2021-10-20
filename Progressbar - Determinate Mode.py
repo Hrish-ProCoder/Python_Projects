@@ -30,3 +30,5 @@ def bar():
 	progress['value'] = 100
 
 progress.pack(pady = 10)
+
+Button(root, text = 'Start', command = bar).pack(pady = 10)
